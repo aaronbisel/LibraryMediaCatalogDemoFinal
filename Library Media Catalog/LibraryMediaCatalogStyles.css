@@ -1,0 +1,250 @@
+/* Library Media Catalog Style Sheet*/
+
+.body {
+	font-family:"Lucida Console", Monaco, monospace;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.horizontalbar	{
+		background-color:#000000;
+		float:left;
+		height:10px;
+		width:900px;
+}
+
+.header		{
+		padding:30px 0 0 0;
+		font-size:40px;
+		background-color:#FFAA77;
+		height:100px;
+		width:900px;
+		text-align:center;
+}
+		
+#LeftNav	{
+		background-color:grey;
+		height:500px;
+		width:150px; 
+		float:left;
+		border-width:thin;
+		border-style:solid;
+		border-color:black;
+}
+
+#LeftNav p {
+	margin:10px 0px 10px 15px;
+}
+
+#LeftNav p:hover {
+	background-color:white;
+	border: 3px darkgray; 
+}
+
+a:active {
+		background-color:white;
+		border:3px darkgray;
+}
+
+#BodyContent	{
+		/*color: #B40404;*/
+		background-color:white;
+		/*padding-left:20px;*/
+		height:500px;
+		width:700px;
+		float:left;
+		/*overflow:scroll;*/
+}
+
+#copyright {
+	background-color:#000000;
+	float:left;
+	height:50px;
+	width:910px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+/*#About div {
+		font-color:black;
+		background-color:white;
+		margin:20px 20px 10px 10px;
+		padding:10px 10px 10px 10px;
+		border-width:thick;
+		border-style:ridge;
+		border-radius:15px;
+	}*/
+
+/* Specific CSS for the About.php script 
+
+#bubbleparagraph {
+	color:black;
+	background-color:white;
+	float:left
+	margin:1cm;
+	padding:10px;
+	border-width:thick;
+	border-style:ridge;
+	border-radius:15px;
+}*/
+
+#reverse {
+	color:white;
+	background-color:black;
+	border-width:thick;
+	border-style:ridge;
+	border-radius:15px;
+}
+
+#reverse:hover {
+	background-color:sienna;	/* #A0522D */
+}
+
+img {
+	opacity:0.8;
+	filter:alpha(opacity=20); 
+}
+
+img:hover {
+	opacity:1.0;
+	filter:alpha(opacity=100);
+	/*border-radius: 15px;*/
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #B40404;
+}	
+
+li a {
+		display: block;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		padding: 14px;
+}
+	
+li a:hover:not(.active) {
+		background-color: #111;
+}
+	
+.active {
+		background-color : #04AA6D;
+}
+
+/*Search
+--------------------------*/
+/*#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat; 
+  font-size: 16px;
+  float:left;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}*/
+
+/*Checkout
+--------------------------
+
+{
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%;
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%;
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}*/
+
+/* Responsive layout - when the screen is less than 800px wide,
+make the two columns stack on top of each other instead of next to each other 
+(also change the direction - make the "cart" column go on top) */
+
+/* @media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }*/
